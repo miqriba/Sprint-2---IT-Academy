@@ -1,0 +1,30 @@
+$text-color: #999;
+$accent-color: rgb(213, 129, 129);
+
+$fancy: "Scheherazade New", serif;
+
+header {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+body {
+  // color: $text-color;
+  background-color: $accent-color;
+}
+h1 {
+  font-family: $fancy;
+}
+img {
+  width: fit-content;
+}
+.text-primary {
+  color: #fff !important;
+}
+.primary {
+  color: rgb(213, 129, 129);
+}
+.fancy {
+  font-family: $fancy;
+}

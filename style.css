@@ -1,0 +1,37 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100vh;
+}
+
+body {
+  background-color: #d58181;
+}
+
+h1 {
+  font-family: "Scheherazade New", serif;
+}
+
+img {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.text-primary {
+  color: #fff !important;
+}
+
+.primary {
+  color: #d58181;
+}
+
+.fancy {
+  font-family: "Scheherazade New", serif;
+}
+/*# sourceMappingURL=style.css.map */
